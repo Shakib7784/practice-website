@@ -1,0 +1,103 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    font-family: 'Dongle', sans-serif;
+font-family: 'Mochiy Pop P One', sans-serif;
+
+}
+
+/* heaser part */
+.nav
+{
+    width: 100%;
+   display: flex;
+   justify-content: space-between;
+   padding-top: 40px;
+  
+
+}
+.logo
+{
+    padding-left: 150px;
+}
+.websites
+{
+    padding-right: 200px;
+    
+}
+.website
+{
+    display:inline-block;
+    list-style: none;
+    margin-right: 30px;
+    
+}
+.website a{
+    text-decoration: none;
+}
+.website img{
+    display: none;
+}
+
+/* main part */
+.container
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 100px 0;
+}
+.col1
+{
+    position: relative;
+    left: 150px;
+}
+.col1 h1
+{
+    font-size: 3em;
+    margin-bottom: 5px;
+}
+.col1 h3{
+    font-size: 1.5em;
+    font-weight: 100;
+    color: rgb(63, 155, 216);
+    margin-bottom: 0;
+}
+.col1 p{
+    font-size: 15px;
+    color: #b7b7b7;
+}
+.col1 h4{
+    font-weight: bold;
+    font-size: 1.2em;
+    color: slateblue;
+}
+.col1 button{
+    width: 150px;
+    color: #fff;
+    font-weight: bolder;
+    text-align: center;
+    background:linear-gradient( to right, #fb5283, #ff3527);
+    padding: 10px 10px;
+}
+.col1 button img
+{
+    width: 30px;
+    height: 10px;
+    padding-left: 5px;
+    display: none;
+    
+}
+button:hover img{
+    display: block;
+    
+}
+button:hover
+{
+    width: 170px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: width 0.8s ease-in-out;
+}
