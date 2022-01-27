@@ -1,3 +1,4 @@
+
 body
 {
     margin: 0;
@@ -288,4 +289,127 @@ ul
     padding:0;
    
 }
+}
+/* responsive for tablet devices */
+@media only  screen and (min-width:701px) and (max-width:992px)
+{
+    .websites
+    {
+        padding-right:0;
+        
+    }
+
+
+    .col1
+{
+    position: relative;
+    left:20px;
+}
+
+.col1 h1
+{
+    font-size: 1.5em;
+    margin-bottom: 3px;
+}
+.col1 h3{
+    font-size: 1.1em;
+    font-weight: 100;
+    color: rgb(63, 155, 216);
+    margin-bottom: 0;
+}
+.col1 p{
+    font-size: 12px;
+    color: #b7b7b7;
+}
+.col1 h4{
+    font-weight: bold;
+    font-size: 0.9em;
+    color: slateblue;
+    margin-bottom: 5px;
+
+}
+.col1 button{
+    width: 100px;
+    font-weight: bold;
+    
+    padding:2px 2px;
+}
+.addbuttion
+{
+
+    position: relative;
+    right: 50px;
+    top:-50px;
+    text-align: center;
+    margin-left: 0;
+    color: whitesmoke;
+}
+.addbuttion img
+{
+    height: 25px;
+    width: 25px;
+}
+.addbuttion p
+{
+    font-size: 0.8em;
+}
+}
+/* responsive for laptop devices */
+@media only  screen and (min-width:993px) and (max-width:1600px)
+{
+    .websites
+    {
+        padding-right:0;
+        
+    }
+    .col1
+    {
+        position: relative;
+        left:50px;
+    }
+    .col1 h1
+{
+    font-size: 1.7em;
+    margin-bottom: 3px;
+}
+.col1 h3{
+    font-size: 1.3em;
+    font-weight: 100;
+    color: rgb(63, 155, 216);
+    margin-bottom: 0;
+}
+.col1 p{
+    font-size: 15px;
+    color: #b7b7b7;
+}
+.col1 h4{
+    font-weight: bold;
+    font-size: 1.1em;
+    color: slateblue;
+    margin-top: 5px;
+    margin-bottom: 10px;
+
+}
+.col1 button{
+    width: 110px;
+   font-weight: bold;
+   font-size: 12px;
+    padding: 7px 7px;
+}
+.addbuttion
+{
+
+    position: relative;
+    right: 60px;
+    top:-70px;
+    text-align: center;
+    margin-left: 0;
+    color: whitesmoke;
+}
+.addbuttion img
+{
+    height: 25px;
+    width: 25px;
+}
+
 }
